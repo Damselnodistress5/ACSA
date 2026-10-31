@@ -1,0 +1,23 @@
+# Secrets
+.env
+**/.env
+!**/.env.example
+
+# Python / env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Runtime output
+storage/
+*.zip
+*.log
+
+# Local dev scratch (not part of the project)
+run*.start
+poll.sh
+/nodes.py
+ref/
+report/
